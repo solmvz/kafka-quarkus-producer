@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Temperature",
+  "namespace": "kafka.schema",
+  "fields": [
+    {
+      "name": "deviceId",
+      "type": "string"
+    },
+    {
+      "name": "Temperature",
+      "type": "double"
+    }
+  ]
+}
